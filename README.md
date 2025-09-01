@@ -14,7 +14,7 @@ NPM or Yarn
 
 ## Setup and Installation
 
-1. `Backend` (Laravel API)
+`Backend` (Laravel API)
 
 First, set up the Laravel server which will provide the data.
 
@@ -40,9 +40,13 @@ php artisan key:generate
 
 php artisan serve
 
-The backend API should now be running and accessible at http://127.0.0.1:8000. 2. Frontend (Next.js App)
+The backend API should now be running and accessible at http://127.0.0.1:8000. 
 
-Next, set up the `Next.js` frontend which will consume the API.
+---
+
+`Frontend` (Next.js App)
+
+Next, set up the Next.js frontend which will consume the API.
 
 ## 1. In a new terminal, navigate into the frontend directory
 
@@ -71,3 +75,5 @@ NEXT_PUBLIC_API_URL=http://localhost:8000/api
 npm run dev
 
 Now, open your browser and navigate to http://localhost:3000. You should see the Pokedex application running!
+
+---
