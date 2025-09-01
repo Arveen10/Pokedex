@@ -40,7 +40,7 @@ php artisan key:generate
 
 php artisan serve
 
-The backend API should now be running and accessible at http://127.0.0.1:8000. 
+The backend API should now be running and accessible at http://127.0.0.1:8000.
 
 ---
 
@@ -58,7 +58,7 @@ npm install
 
 ## 3. Create a local environment file
 
-touch .env.local or cp .env.example .env.local
+touch .env.local
 
 ## 4. Configure the API URL
 
